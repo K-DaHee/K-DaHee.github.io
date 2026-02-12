@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Jua&display=swap');
+
+body {
+    font-family: 'Gamja Flower', cursive, sans-serif !important;
+    font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Jua', sans-serif !important;
+}
+
+.card,
+.article-card,
+.box {
+    border-radius: 15px !important;
+    box-shadow: 0 4px 10px rgba(255, 183, 178, 0.3) !important;
+}
+
+.button,
+.btn {
+    border-radius: 20px !important;
+}
+
+.header {
+    border-bottom: 3px dashed #FFB7B2;
+}
+
+::selection {
+    background: #FFDAC1;
+    color: white;
+}

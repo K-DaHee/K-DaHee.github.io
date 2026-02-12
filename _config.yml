@@ -1,0 +1,35 @@
+title: K-DaHee's Lab
+description: > # 줄바꿈을 무시하고 한 줄로 처리
+  K-DaHee's Tech Blog & Portfolio
+  
+author:
+  name: K-DaHee
+  email: dhk086512@gmail.com
+  url: https://github.com/K-DaHee
+  bio: Developer
+
+# 빌드 설정
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-remote-theme
+
+# 원격 테마 설정 (TeXt Theme)
+remote_theme: kitian616/jekyll-TeXt-theme
+
+# 테마 스킨 설정 (default, forest, ocean, chocolate, orange, violet, cute)
+text_skin: cute
+
+# 네비게이션 메뉴
+header:
+  pages:
+    - title: Blog
+      url: /
+    - title: About
+      url: /about
+    - title: Archive
+      url: /archive
+
+excerpt_separator: "\n\n"
