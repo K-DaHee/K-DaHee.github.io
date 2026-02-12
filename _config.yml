@@ -20,7 +20,7 @@ plugins:
 remote_theme: kitian616/jekyll-TeXt-theme
 
 # 테마 스킨 설정 (default, forest, ocean, chocolate, orange, violet, cute)
-text_skin: cute
+text_skin: default
 
 # 네비게이션 메뉴
 header:

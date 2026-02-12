@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Jua&display=swap');
 
+/* Main Body & Fonts */
 body {
     font-family: 'Gamja Flower', cursive, sans-serif !important;
     font-size: 18px;
+    background-color: #FDF6F6 !important;
+    /* Pastel Background */
+    color: #6da7b6 !important;
+    /* Soft Text Color */
 }
 
 h1,
@@ -12,24 +17,48 @@ h4,
 h5,
 h6 {
     font-family: 'Jua', sans-serif !important;
+    color: #FF9AA2 !important;
+    /* Pastel Red Headings */
 }
 
+a {
+    color: #FF9AA2 !important;
+    /* Link Color */
+}
+
+a:hover {
+    color: #FFB7B2 !important;
+}
+
+/* UI Elements: Rounded & Pastel */
 .card,
 .article-card,
 .box {
     border-radius: 15px !important;
     box-shadow: 0 4px 10px rgba(255, 183, 178, 0.3) !important;
+    background-color: #fff !important;
 }
 
 .button,
 .btn {
     border-radius: 20px !important;
+    background-color: #FFB7B2 !important;
+    border-color: #FFB7B2 !important;
+    color: white !important;
 }
 
 .header {
-    border-bottom: 3px dashed #FFB7B2;
+    border-bottom: 3px dashed #FFB7B2 !important;
+    background-color: #fff !important;
 }
 
+/* Code Blocks */
+pre,
+code {
+    background-color: #fff0f5 !important;
+}
+
+/* Selection Color */
 ::selection {
     background: #FFDAC1;
     color: white;
