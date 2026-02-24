@@ -1,0 +1,64 @@
+# Site Settings
+title: K-DaHee's Lab
+tagline: Developer Blog
+description: >-
+  K-DaHee의 개발 블로그. 알고리즘, 자료구조, 개발 경험을 기록합니다.
+url: "https://k-dahee.github.io"
+github:
+  username: K-DaHee
+
+social:
+  name: K-DaHee
+  email: dhk086512@gmail.com
+  links:
+    - https://github.com/K-DaHee
+
+# Theme
+theme: jekyll-theme-chirpy
+
+# Avatar (사이드바 프로필 이미지)
+avatar: https://github.com/K-DaHee.png
+
+# 빌드 설정
+markdown: kramdown
+timezone: Asia/Seoul
+future: true
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+
+paginate: 10
+
+# Chirpy theme settings
+toc: true
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comments: false
+      toc: true
+      permalink: /posts/:title/
+  - scope:
+      path: _tabs
+    values:
+      layout: page
+      permalink: /:title/
+
+sass:
+  style: compressed
+
+exclude:
+  - "*.gem"
+  - "*.gemspec"
+  - docs
+  - tools
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
