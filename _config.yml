@@ -1,5 +1,5 @@
 # Site Settings
-title: K-DaHee's Lab
+title: K-DaHee
 tagline: Developer Blog
 description: >-
   K-DaHee의 개발 블로그. 알고리즘, 자료구조, 개발 경험을 기록합니다.
@@ -34,6 +34,11 @@ paginate: 10
 
 # Chirpy theme settings
 toc: true
+
+collections:
+  tabs:
+    output: true
+    sort_by: order
 
 defaults:
   - scope:
