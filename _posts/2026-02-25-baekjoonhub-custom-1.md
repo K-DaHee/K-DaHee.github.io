@@ -3,6 +3,9 @@ title: "백준허브(BaekjoonHub) 커스텀 (1) - 백준허브란? 설치 방법
 date: 2026-02-25 16:00:00 +0900
 categories: [Dev, Tools]
 tags: [baekjoonhub, chrome-extension, github, 알고리즘]
+image:
+  path: /assets/images/baekjoonhub-custom/thumbnails/1.png
+  alt: 백준허브 커스텀 썸네일
 ---
 
 ## 목적
