@@ -22,8 +22,14 @@ avatar: https://github.com/K-DaHee.png
 # 빌드 설정
 markdown: kramdown
 kramdown:
-  input: GFM
   syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
 timezone: Asia/Seoul
 future: true
 
@@ -60,6 +66,15 @@ defaults:
 
 sass:
   style: compressed
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  blanklines: false
+  ignore:
+    envs: [development]
 
 exclude:
   - "*.gem"
