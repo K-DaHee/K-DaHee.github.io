@@ -29,7 +29,6 @@ image:
 > 수정된 코드도 자바일때만 수정/추가 되도록 해뒀기 때문에 신경쓰지 않아도 된다.
 {: .prompt-warning }
 
-{% raw %}
 
 ### 백준
 
@@ -37,7 +36,7 @@ image:
 
 `makeDetailMessageAndReadme` 메서드 내부 내용 추가
 
-```javascript
+~~~javascript
 /*
 기존 구조 : 백준에서 업로드할 때 사용되는 코드 그대로 업로드 됨
 클래스 이름 Main, 패키지 없음
@@ -68,7 +67,7 @@ if (extension === 'java') {
   const packageName = `package BOJ.${tier}.${tierWithRank};`;
   finalCode = `${packageName}\n\n${modifiedCode}`;
 }
-```
+~~~
 
 ### 프로그래머스
 
@@ -78,7 +77,7 @@ if (extension === 'java') {
 
 프로그래머스는 조금 특별하다. `Solution` 클래스를 감싸는 실행용 `public` 클래스를 새로 만들어야 한다.
 
-```javascript
+~~~javascript
 /*
 기존 구조
 클래스 이름 Solution, 패키지 없음
@@ -118,7 +117,7 @@ if (language_extension === 'java') {
   // 최종 코드를 조합: 패키지 선언부 + 실행용 클래스 + 풀이 클래스
   finalCode = `${packageName}\n\n${mainClass}\n\n${modifiedSolutionClass}`;
 }
-```
+~~~
 
 ### SWEA
 
@@ -126,7 +125,7 @@ if (language_extension === 'java') {
 
 `makeData` 메서드 내부 내용 추가
 
-```javascript
+~~~javascript
 /*
 기존 구조 : SWEA에서 업로드할 때 사용되는 코드 그대로 업로드 됨
 클래스 이름 Solution, 패키지 없음
@@ -155,9 +154,7 @@ if (extension === 'java') {
   const packageName = `package SWEA.${level};`;
   finalCode = `${packageName}\n\n${modifiedCode}`;
 }
-```
-
-{% endraw %}
+~~~
 
 ---
 
