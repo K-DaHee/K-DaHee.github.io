@@ -21,6 +21,9 @@ avatar: https://github.com/K-DaHee.png
 
 # 빌드 설정
 markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 timezone: Asia/Seoul
 future: true
 
