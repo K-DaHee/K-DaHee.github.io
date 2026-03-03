@@ -29,6 +29,8 @@ image:
 > 수정된 코드도 자바일때만 수정/추가 되도록 해뒀기 때문에 신경쓰지 않아도 된다.
 {: .prompt-warning }
 
+{% raw %}
+
 ### 백준
 
 **수정할 파일 경로 : `BaekjoonHub-1.2.8\scripts\baekjoon\parsing.js`**
@@ -154,6 +156,8 @@ if (extension === 'java') {
   finalCode = `${packageName}\n\n${modifiedCode}`;
 }
 ```
+
+{% endraw %}
 
 ---
 
