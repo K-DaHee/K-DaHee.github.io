@@ -3,6 +3,9 @@ title: "백준허브(BaekjoonHub) 커스텀 (4) - PR 자동화"
 date: 2026-02-28 16:00:00 +0900
 categories: [Dev, Tools]
 tags: [baekjoonhub, chrome-extension, github, 알고리즘, pr-자동화]
+image:
+  path: /assets/images/baekjoonhub-custom/thumbnails/4.png
+  alt: 백준허브 커스텀 (4) 썸네일
 ---
 
 > 이전 글: [백준허브(BaekjoonHub) 커스텀 (3) - Java 코드 자동 수정](/posts/baekjoonhub-custom-3/)
