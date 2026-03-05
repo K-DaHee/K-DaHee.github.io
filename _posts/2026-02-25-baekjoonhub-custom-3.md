@@ -1,6 +1,6 @@
 ---
 title: "백준허브(BaekjoonHub) 커스텀 (3) - Java 코드 자동 수정 (클래스명, 패키지)"
-date: 2026-02-27 16:00:00 +0900
+date: 2026-03-03 16:00:00 +0900
 categories: [Dev, Tools]
 tags: [baekjoonhub, chrome-extension, github, 알고리즘, java]
 image:

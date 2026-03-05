@@ -1,6 +1,6 @@
 ---
 title: "백준허브(BaekjoonHub) 커스텀 (4) - PR 자동화"
-date: 2026-02-28 16:00:00 +0900
+date: 2026-03-04 16:00:00 +0900
 categories: [Dev, Tools]
 tags: [baekjoonhub, chrome-extension, github, 알고리즘, pr-자동화]
 image:
